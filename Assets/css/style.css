@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto:100,200,300,400,500,600,700');
+
+/*----------------------------Heading*/
+
+.container-header {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0;
+    background-color: transparent;
+}
+    
+.title {
+    padding-left: 30px;
+    padding-right: 15px;
+    background-color: transparent;
+    color: #999999;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+
+}
+
+.job-title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+
+}
+
+.menu-item {
+    height: 120%;
+    text-align: center;
+    background-color: #999;
+    color: #fafafa;
+
+}
+
+.menu-item a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+.menu-item span {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #fafafa;
+}
+
+#nav.list-inline {
+    padding-left: 40px;
+}
+
+/*----------------------------Back ground*/
+
+.body-home {
+    background: url(/Assets/Images/People/Shadow.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
