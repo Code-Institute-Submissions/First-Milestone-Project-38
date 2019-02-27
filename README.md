@@ -74,6 +74,56 @@ So that I can connect with the cinematographer on a different page.
 **Footer -** This will contain the cinematographers social links.
 
 ## Skeleton
-Wireframes:
+### Wireframes:
+
+#### Homepage Desktop
+
+![Homepage Desktop](https://raw.githubusercontent.com/GaryFinlayson/First-Milestone-Project/master/Assets/Wire%20Frames/Desktop/Home%20Desktop.png)
+
+
+#### Homepage Mobile
+
+![Homepage Mobile](https://raw.githubusercontent.com/GaryFinlayson/First-Milestone-Project/master/Assets/Wire%20Frames/Mobile/Home%20Mobile.png)
+
+
+#### Aboutpage Desktop
+
+![Aboutpage Desktop](https://raw.githubusercontent.com/GaryFinlayson/First-Milestone-Project/master/Assets/Wire%20Frames/Desktop/About%20Desktop.png)
+
+
+#### Aboutpage Mobile
+
+![Aboutpage Mobile](https://raw.githubusercontent.com/GaryFinlayson/First-Milestone-Project/master/Assets/Wire%20Frames/Mobile/About%20Mobile.png)
+
+
+#### Photographypage Desktop
+
+![Photographypage Desktop](https://raw.githubusercontent.com/GaryFinlayson/First-Milestone-Project/master/Assets/Wire%20Frames/Desktop/Photography%20Desktop.png)
+
+
+#### Photographypage Mobile
+
+![Photographypage Mobile](https://raw.githubusercontent.com/GaryFinlayson/First-Milestone-Project/master/Assets/Wire%20Frames/Mobile/Photography%20Mobile.png)
+
+
+#### Commercialpage Desktop
+
+![Commercialpage Desktop](https://raw.githubusercontent.com/GaryFinlayson/First-Milestone-Project/master/Assets/Wire%20Frames/Desktop/Commercial%20Desktop.png)
+
+
+#### Commercialpage Mobile
+
+![Commercialpage Mobile](https://raw.githubusercontent.com/GaryFinlayson/First-Milestone-Project/master/Assets/Wire%20Frames/Mobile/Commercial%20Mobile.png)
+
+
+#### Contactpage Desktop
+
+![Contactpage Desktop](https://raw.githubusercontent.com/GaryFinlayson/First-Milestone-Project/master/Assets/Wire%20Frames/Desktop/Contact%20Desktop.png)
+
+
+#### Contactpage Mobile
+
+![Contactpage Mobile](https://raw.githubusercontent.com/GaryFinlayson/First-Milestone-Project/master/Assets/Wire%20Frames/Mobile/Contact%20Mobile.png)
+
 
 
