@@ -1,34 +1,57 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto:100,200,300,400,500,600,700');
 
-/*----------------------------Heading*/
 
-.container-header {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    margin: 0;
-    background-color: transparent;
-}
+/* Layout */
+
+
+/*----------------------------Heading*/
     
+.navbar {
+    padding-right: 2rem;
+}
+
+.navbar-toggler-icon {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
 .title {
-    padding-left: 30px;
+    padding-left: 0px;
     padding-right: 15px;
+    max-width: 55vw;
     background-color: transparent;
-    color: #999999;
+    color: #f5f5f5;
+    text-decoration: none;
 }
 
 .name {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 30px;
-
 }
 
 .job-title {
     font-family: 'Indie Flower', cursive;
     font-size: 25px;
+}
 
+#menu-button {
+    position:absolute;
+     top:0;
+     right:0;
+     margin: 5px;
 }
 
 .menu-item {
@@ -36,7 +59,6 @@
     text-align: center;
     background-color: #999;
     color: #fafafa;
-
 }
 
 .menu-item a {
@@ -60,8 +82,76 @@
     color: #fafafa;
 }
 
-#nav.list-inline {
-    padding-left: 40px;
+.show {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 3px;
+}
+
+.collapsing {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 3px;
+}
+
+
+/* Footer */
+
+.footer {
+    text-align: center;
+}
+
+ul.footer-links {
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0%;
+    font-size: 1.5rem;
+}
+
+.my-social {
+    background-color: rgb(216, 231, 236, 0.2);
+    border: 1px rgb(171, 192, 199, 0.2) solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 200px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.my-social:hover {
+    background-color: rgb(216, 231, 236, 1);
+}
+
+i.up {
+    border: solid #212529;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -webkit-transition: -webkit-transform .5s ease-in-out;
+    -ms-transition: -ms-transform .5s ease-in-out;
+    transition: transform .5s ease-in-out;
+  }
+
+  i.up.down {
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+}
+
+
+ 
+.social-btn {
+    background-color: rgb(216, 231, 236, 0.2);
+    border: 1px rgb(171, 192, 199, 0.2) solid;
+    border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.social-btn:hover {
+    background-color: rgb(216, 231, 236, 1);
 }
 
 /*----------------------------Back ground*/
@@ -75,4 +165,17 @@
 
     display: flex;
     align-items: center;
+}
+
+
+/* Media queries */
+
+/* Medium devices */
+@media (min-width: 768px) {
+    /*  */
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+    /*  */
 }
