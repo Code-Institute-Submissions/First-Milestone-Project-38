@@ -8,6 +8,9 @@
     
 .navbar {
     padding-right: 2rem;
+    background-color: #3f5666;
+    line-height: 0.5;
+    padding-bottom: 0;
 }
 
 .navbar-toggler-icon {
@@ -111,8 +114,8 @@ ul.footer-links {
 }
 
 .my-social {
-    background-color: rgb(216, 231, 236, 0.2);
-    border: 1px rgb(171, 192, 199, 0.2) solid;
+    background-color: rgb(216, 231, 236, 0.5);
+    border: 1px rgb(171, 192, 199, 0.5) solid;
     border-radius: 10px;
     margin: 0 auto;
     width: 200px;
@@ -144,8 +147,8 @@ i.up {
 
  
 .social-btn {
-    background-color: rgb(216, 231, 236, 0.2);
-    border: 1px rgb(171, 192, 199, 0.2) solid;
+    background-color: rgb(216, 231, 236, 0.5);
+    border: 1px rgb(171, 192, 199, 0.5) solid;
     border-radius: 10px;
     transition: background-color 0.5s ease-in-out;
 }
@@ -153,6 +156,37 @@ i.up {
 .social-btn:hover {
     background-color: rgb(216, 231, 236, 1);
 }
+
+
+/* About Page */
+
+.page-content {
+    margin-top: 150px;
+    margin-bottom: 250px;
+    margin-left: 15px;
+    margin-right: 150px;
+    color: #ffffff;
+}
+
+.about-me-heading {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+}
+
+.about-me-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+/* Photography Page */
+
+img {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    border: 1px rgba(87, 85, 85, 0.432) solid;
+}
+
 
 /*----------------------------Back ground*/
 
@@ -177,5 +211,59 @@ i.up {
 
 /* Large devices */
 @media (min-width: 992px) {
-    /*  */
+    /* Footer */
+
+    .footer {
+        text-align: right;
+        width: 100%;
+        background-color: rgb(75, 75, 75, 0.1);
+    }
+
+    ul.footer-links {
+        display: inline-flex;
+        list-style-type: none;
+        text-align: right;
+        padding-inline-start: 0%;
+        font-size: 1.5rem;
+    }
+
+    .my-social {
+        color: #ffffff;
+        background-color: rgb(75, 75, 75, 0);
+        border: rgb(75, 75, 75, 0) none;
+        border-radius: 0px;
+        margin: auto;
+        width: auto;
+        padding: 10px;
+        transition: background-color 0.5s ease-in-out;
+    }
+
+    .social-heading {
+        font-size: 30px;
+    }
+
+    .my-social:hover {
+        background-color: rgb(75, 75, 75, 0);
+    }
+
+    .social-btn {
+        background-color: rgb(75, 75, 75, 0);
+        border: rgb(75, 75, 75, 0) none;
+        border-radius: 0px;
+        transition: background-color 0.5s ease-in-out;
+        padding: 10px;
+    }
+    
+    .social-btn:hover {
+        background-color: rgb(75, 75, 75, 0);
+    }
+
+    a {
+        color: #ffffff;
+    }
+
+    .fa:hover {
+        color: yellow;
+    }
+
 }
