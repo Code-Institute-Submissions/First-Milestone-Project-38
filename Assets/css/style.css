@@ -198,6 +198,19 @@ i.up {
     transform: scale(1.1);
 }
 
+/* Commercial Page */
+.video-button {
+    width: auto;
+    height: auto;
+    margin: 25px;
+    background-color: rgba(63, 64, 65, 0.8);
+    border-radius: 5px;
+}
+
+.video-button a {
+    color: black;
+}
+
 
 /*----------------------------Back ground*/
 
