@@ -212,7 +212,7 @@ i.up {
 /*----------------------------Back ground*/
 
 .body-home {
-    background: url(/Assets/Images/People/Shadow.jpg) no-repeat center center fixed;
+    background: url(/Assets/Images/People/Shadow.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
