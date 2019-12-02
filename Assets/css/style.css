@@ -103,6 +103,18 @@
     text-align: center;
 }
 
+.footer-contact-button {
+    display: none;
+}
+
+.watermark {
+    display: none;
+}
+
+.watermark-contact {
+    display: none;
+}
+
 ul.footer-links {
     list-style-type: none;
     text-align: center;
@@ -157,11 +169,11 @@ i.up {
 
 /* About Page */
 
-.page-content {
+.about-page {
     margin-top: 150px;
     margin-bottom: 250px;
     margin-left: 15px;
-    margin-right: 150px;
+    margin-right: 15px;
     color: #ffffff;
 }
 
@@ -176,6 +188,14 @@ i.up {
 }
 
 /* Photography Page */
+
+.photography-page {
+    margin-top: 180px;
+    margin-bottom: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #ffffff;
+}
 
 .gallery {
     position: relative;
@@ -196,10 +216,19 @@ i.up {
 }
 
 /* Commercial Page */
+
+.commercial-page {
+    margin-top: 185px;
+    margin-bottom: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #ffffff;
+}
+
 .video-button {
     width: auto;
     height: auto;
-    margin: 25px;
+    margin: 50px;
     background-color: rgba(63, 64, 65, 0.8);
     border-radius: 5px;
 }
@@ -207,6 +236,21 @@ i.up {
 .video-button a {
     color: black;
 }
+
+/* Contact Page */
+
+.contact-page {
+    margin-top: 170px;
+    margin-bottom: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #ffffff;
+}
+
+.muted {
+    color: #adb5bd;
+}
+
 
 
 /*----------------------------Back ground*/
@@ -217,7 +261,6 @@ i.up {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
 }
@@ -228,10 +271,38 @@ i.up {
 /* Medium devices */
 @media (min-width: 768px) {
     /*  */
+
+    .contact-page {
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ffffff;
+    }
+
+    form {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+
 }
 
 /* Large devices */
 @media (min-width: 992px) {
+    
+    /* Contact Page */
+    form {
+        width: 30%;
+        margin-left: 35%;
+    }
+    
+    
+    
+    
     /* Footer */
 
     .footer {
@@ -240,31 +311,59 @@ i.up {
         background-color: rgb(75, 75, 75, 0.1);
     }
 
+    .footer-inline {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-contact-button {
+        display: block;
+        margin: auto;
+        margin-left: 5px;
+        font-size: 18px;
+        color: white;
+    }
+
+    .watermark {
+        display: block;
+        margin: auto;
+        color: white;
+    }
+
+    .watermark-contact {
+        display: block;
+        margin: auto;
+        margin-left: 1px;
+        color: white;
+    }
+
+    .me {
+        color: rgb(0, 140, 255);
+        transition: color 0.4s ease-in-out;
+    }
+
+    .me:hover {
+        color: rgb(140, 0, 255);
+        text-decoration: none;
+    }
+
+
     ul.footer-links {
         display: inline-flex;
         list-style-type: none;
         text-align: right;
         padding-inline-start: 0%;
+        margin: auto;
+        margin-right: 5px;
         font-size: 1.5rem;
     }
 
     .my-social {
-        color: #ffffff;
-        background-color: rgb(75, 75, 75, 0);
-        border: rgb(75, 75, 75, 0) none;
-        border-radius: 0px;
-        margin: auto;
-        width: auto;
-        padding: 10px;
-        transition: background-color 0.5s ease-in-out;
+        display: none;
     }
 
     .social-heading {
         font-size: 30px;
-    }
-
-    .my-social:hover {
-        background-color: rgb(75, 75, 75, 0);
     }
 
     .social-btn {
@@ -283,8 +382,32 @@ i.up {
         color: #ffffff;
     }
 
-    .fa:hover {
-        color: yellow;
+    .fa {
+        transition: color 0.4s ease-in-out;
+    }
+    
+    .fa-facebook:hover {
+        color: rgb(0, 81, 255);
+    }
+
+    .fa-twitter:hover {
+        color: rgb(0, 195, 255);
+    }
+
+    .fa-linkedin:hover {
+        color: rgb(37, 75, 126);
+    }
+
+    .fa-pinterest:hover {
+        color: rgb(255, 0, 0);
+    }
+
+    .fa-instagram:hover {
+        color: rgb(255, 81, 0);
+    }
+
+    .fa-youtube:hover {
+        color: rgb(255, 16, 68);
     }
 
 }
