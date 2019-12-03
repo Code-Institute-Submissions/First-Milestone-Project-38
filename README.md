@@ -1,4 +1,8 @@
 # First Milestone Project
+
+### Deployment
+The website is being hosted by GitHub Pages you can check it out by clicking <a target="_blank" href="https://garyfinlayson.github.io/First-Milestone-Project/">Here!</a>
+
 ### My client
 I have had several meetings with a student Cinematographer and Freelancer whose
 goal is to increase his recognition in the film and photography industry whilst
