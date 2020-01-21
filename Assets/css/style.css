@@ -16,7 +16,12 @@
 }
 
 .nav-link {
+    background-color: #3f5666;
     font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 10px;
 }
 
 .fixed-top {
@@ -84,14 +89,14 @@
 
 .show {
     position: absolute;
-    top: 50px;
+    top: 80px;
     right: 0;
     padding: 3px;
 }
 
 .collapsing {
     position: absolute;
-    top: 50px;
+    top: 80px;
     right: 0;
     padding: 3px;
 }
@@ -116,6 +121,7 @@
 }
 
 ul.footer-links {
+    display: none;
     list-style-type: none;
     text-align: center;
     padding-inline-start: 0%;
@@ -123,16 +129,15 @@ ul.footer-links {
 }
 
 .my-social {
-    background-color: rgb(216, 231, 236, 0.5);
+    background-color: rgba(195, 199, 201, 0.7);
     border: 1px rgb(171, 192, 199, 0.5) solid;
-    border-radius: 10px;
     margin: 0 auto;
-    width: 200px;
+    width: 100%;
     transition: background-color 0.5s ease-in-out;
 }
 
 .my-social:hover {
-    background-color: rgb(216, 231, 236, 1);
+    background-color: rgba(195, 199, 201, 1);
 }
 
 i.up {
@@ -156,9 +161,8 @@ i.up {
 
  
 .social-btn {
-    background-color: rgb(216, 231, 236, 0.5);
+    background-color: rgba(195, 199, 201, 0.7);
     border: 1px rgb(171, 192, 199, 0.5) solid;
-    border-radius: 10px;
     transition: background-color 0.5s ease-in-out;
 }
 
@@ -177,14 +181,36 @@ i.up {
     color: #ffffff;
 }
 
+.aboutBox {
+    background-color: #5f676ebb;
+    width: 100%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: 0;
+    border-radius: 5px;
+}
+
+.aboutBoxShadow {
+    background-color: #353333;
+    width: 65%;
+    padding: 2px;
+    padding-right: 0;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: 10%;
+    border-radius: 8px;
+    border-bottom-left-radius: 5px;
+}
+
 .about-me-heading {
     font-family: 'Roboto', sans-serif;
     padding-top: 30px;
+    font-size: 26px;
 }
 
 .about-me-content {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* Photography Page */
@@ -199,7 +225,6 @@ i.up {
 
 .gallery {
     position: relative;
-    
 }
 
 .gallery img {
@@ -241,7 +266,7 @@ i.up {
 
 .contact-page {
     margin-top: 170px;
-    margin-bottom: 250px;
+    margin-bottom: auto;
     margin-left: 15px;
     margin-right: 15px;
     color: #ffffff;
@@ -281,6 +306,16 @@ i.up {
         color: #ffffff;
     }
 
+    .about-me-heading {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+}
+
+.about-me-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
     form {
         width: 50%;
         margin-left: 25%;
@@ -294,6 +329,21 @@ i.up {
 /* Large devices */
 @media (min-width: 992px) {
     
+    /* About Page */
+    .aboutBoxShadow {
+        background-color: #353333;
+        width: 50%;
+        padding: 2px;
+        padding-right: 0;
+        padding-top: 0;
+        margin-left: auto;
+        margin-right: 10%;
+        border-radius: 8px;
+        border-bottom-left-radius: 5px;
+    }
+
+
+
     /* Contact Page */
     form {
         width: 30%;
@@ -314,6 +364,10 @@ i.up {
     .footer-inline {
         display: flex;
         justify-content: space-between;
+    }
+
+    ul.footer-links {
+        display: inline flex;
     }
 
     .footer-contact-button {
