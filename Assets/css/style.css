@@ -342,6 +342,22 @@ i.up {
         border-bottom-left-radius: 5px;
     }
 
+    .commercial-page {
+        position: absolute;
+        float: right;
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 250px;
+        margin-left: auto;
+        color: #ffffff;
+    }
+
+    .video-button {
+        width: 30%;
+        height: auto;
+        margin-left: auto;
+        margin-right: 10%;
+    }
 
 
     /* Contact Page */
