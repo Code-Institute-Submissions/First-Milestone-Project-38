@@ -4,7 +4,7 @@ $(document).ready(function(){
   
 });
 
-var mql = window.matchMedia('(max-width: 991px');
+//var mql = window.matchMedia('(max-width: 991px');
 
 function checkScreenWidth() {
   if (window.matchMedia('(max-width: 991px)').matches) {
@@ -21,4 +21,4 @@ function checkScreenWidth() {
   //}
 }
 
-mql.addListener(checkScreenWidth);
+//mql.addListener(checkScreenWidth);
