@@ -196,7 +196,7 @@ Even though the website works fine on a multiple of different screen sizes and d
 
 
 ## Deployment
-This website was created in Visual Studio Code and pushed to a repository on GitHub.
+This website was created in Visual Studio Code and pushed to a repository on GitHub.  
 The website is being hosted by GitHub Pages you can check it out by clicking <a target="_blank" href="https://garyfinlayson.github.io/First-Milestone-Project/">Here!</a>
 
  
