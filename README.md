@@ -151,7 +151,9 @@ These issues didn't effect the website however it was an easy fix.
 Using the DevTools I was able to get an idea of how my website would look on smaller devices such as the Pixel 2, Galaxy S5, iPhone 6/7/8+ iPad and the iPad Pro.
 
 - I also tested the website on differnt web-browsers to make sure that it works as expected accross a range of web-browsers which include:  
-Google Chrome, Microsoft Edge, Firefox, Opera and Safari on an iPhone 7+. 
+Google Chrome, Microsoft Edge, Firefox, Opera and Safari on an iPhone 7+.  
+I noticed on Microsoft Edge my social icons background was not as transparent as the rest of the footer.  
+I relised this is because my media queries I had in style.css was not working with Microsoft Edge. I am still looking for a fix.
 
 - **User Stories Scenarios**  
 1. I would like to see the cinematographers previous work.   
