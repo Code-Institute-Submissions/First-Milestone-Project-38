@@ -169,7 +169,8 @@ i. Open website
 ii. Go to "Contact" page  
 iii. Try to submit the form without a name and verify a notification appears asking to fill in required field  
 iv. Try to submit the form without a correct email address and verify that an error message appears asking for a correct email  
-v. Submit form with all the required fields filled out correctly.
+v. Submit form with all the required fields filled out correctly
+vi. Verify message appears when the submit is successful.  
 
 3. I would like to know about the cinematographer.  
 i. Open website and verify the landing page is the "About" page.
@@ -193,13 +194,18 @@ ii. Click on the social icons at the bottom of the page and verify the links are
 - **Bugs**  
 Even though the website works fine on a multiple of different screen sizes and devices I have noticed that when changing the screen width from <992px to >991 the footer menu changes the layout and fails to work when changing the screen width back to >992. This can be sloved by refreshing the webpage however it does not provide a good UX. I tried fixing it by adding an eventListener into my script.js file that would reload the page once it had detected a screen width change. This fixed one problem but caused another so I later commented out that code. I plan to find a fix for this soon.
  
-
-
-
-
 ## Deployment
-This website was created in Visual Studio Code and pushed to a repository on GitHub.  
+This website was developed in Visual Studio Code and pushed to a repository on GitHub.
 The website is being hosted by GitHub Pages you can check it out by clicking <a target="_blank" href="https://garyfinlayson.github.io/First-Milestone-Project/">Here!</a>
+
+You can also clone this repository and run it locally by:  
+1. Copy the web URL, which can be found on this repositorys main page and clicking on the green "Clone or download" button  
+2. Open Git Bash
+3. Change the current working directory to the location where you want the cloned directory to be made
+4. Type git clone followed by the URL that was copied e.g.  
+*$ git clone https://github.com/GaryFinlayson/First-Milestone-Project.git*  
+5. Press **Enter**. Your local clone of this repository will be created. 
+
 
  
 
