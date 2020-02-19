@@ -264,6 +264,10 @@ i.up {
     border-radius: 5px;
 }
 
+.video-button-title {
+    margin: .3rem .5rem;
+}
+
 .video-button a {
     color: black;
 }
@@ -395,7 +399,7 @@ i.up {
     .footer-contact-button {
         display: block;
         margin: auto;
-        margin-left: 5px;
+        margin-left: 10px;
         font-size: 18px;
         color: white;
     }
